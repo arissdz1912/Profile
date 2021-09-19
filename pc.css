@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  font-size: 20px;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-color: #19b3cf;
+}
+.main {
+  border-radius: 15px;
+  display: flex;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: white;
+  margin: 50px auto;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  max-width: 1400px;
+}
+.navigation {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #dbf1f9;
+  border-radius: 15px 0 0 15px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 100;
+}
+.logo {
+  width: 128px;
+  height: 47px;
+}
+.nav {
+  margin-top: 20px;
+}
+.nav-ele {
+  padding: 20px 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+.nav .fas,
+td .fas {
+  color: #5379ac;
+  font-size: 15px;
+}
+.section {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  float: right;
+}
+.input {
+  border: none;
+  line-height: 20px;
+}
+.notification i {
+  padding: 0 15px;
+}
+.name-card {
+  display: flex;
+  padding-top: 75px;
+}
+.name {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.name h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.name-infor,
+td {
+  font-size: 15px;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+table {
+  padding-top: 60px;
+}
+.note {
+  position: relative;
+  text-align: center;
+  color: black;
+  width: fit-content;
+  float: right;
+}
+.public {
+  width: 33%;
+}
+.note-describe {
+  position: absolute;
+  font-size: 14px;
+  top: 40%;
+  left: 40%;
+  transform: translate(-30%, -50%);
+}
+.about-me {
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.communication li {
+  padding: 5px 0;
+}
+.communication a {
+  font-size: 15px;
+  color: #5379ac;
+}
+.tag {
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: #dfe9ff;
+  min-width: fit-content;
+  height: fit-content;
+  padding: 7px;
+}
+.tag-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.profile {
+  width: 33%;
+}
+.profile-describe {
+  font-size: 16px;
+}
+.experience {
+  padding-left: 25px;
+  width: 33%;
+}
